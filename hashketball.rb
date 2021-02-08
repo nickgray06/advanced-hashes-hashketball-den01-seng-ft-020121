@@ -184,6 +184,9 @@ def player_numbers(team_names)
   return numbers
 end
 
+players.map do |player|
+  player[:number]
+
 def player_stats(players_name)
    game_hash.each do |location, team_data|
     team_data.each do |attribute, data|
